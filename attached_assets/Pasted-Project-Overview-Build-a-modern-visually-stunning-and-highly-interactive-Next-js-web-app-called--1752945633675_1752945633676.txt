@@ -1,0 +1,81 @@
+Project Overview:
+Build a modern, visually stunning, and highly interactive Next.js web app called “VibeTube”. The app analyzes YouTube video comments to instantly reveal the overall “vibe” — sentiment, trending topics, and highlight comments — presented in a unique, engaging, and user-friendly way.
+
+Key Features
+URL Input & Auto Preview
+
+Input field for a YouTube video link with real-time validation.
+
+Display a large video preview panel on top showing: video thumbnail, title, channel name, view count, and publication date.
+
+Vibe Scan Button with Animation
+
+Large “Scan Vibe” button with pulsing animation that triggers comment analysis.
+
+Emotional Pulse Dashboard
+
+Interactive 3D mood globe visualizing sentiment categories: positive (green), neutral (yellow), negative (red), and special emotions (surprise, humor, etc).
+
+Globe is rotatable and clickable to show detailed data per mood.
+
+Trending Topics displayed as an organic, animated “tag cloud” with clickable tags that filter highlight comments.
+
+Sentiment timeline graph showing how comment sentiment evolved over time.
+
+Highlight Reel Section
+
+Swipeable carousel of top comments including username, avatar, likes, replies, and direct YouTube link.
+
+Separate tab for memes/GIF highlights extracted from comments.
+
+AI-generated short insight snippets summarizing key themes.
+
+Smart Features
+
+“Read Aloud” button using Web Speech API for audio summary of comment vibe.
+
+Deep Dive mode with advanced filters (sentiment, keywords, popularity).
+
+Multi-video comparison feature allowing analysis of 2-3 videos side-by-side with comparative dashboards.
+
+UI/UX Requirements
+Use Next.js (latest version, app directory structure).
+
+Use Tailwind CSS for styling with dark theme by default and smooth light/dark mode toggle.
+
+Use Framer Motion for all animations and transitions (button pulse, globe rotation, carousel swipes, hover effects).
+
+Incorporate lucide-react icons for UI elements.
+
+Design must be ultra-modern, minimalistic but vibrant, with glassmorphism panels, subtle shadows, and fluid micro-interactions.
+
+Fully responsive for mobile, tablet, and desktop with accessible features (keyboard nav, screen reader support, high contrast).
+
+No user accounts, no data storage, privacy-first approach. Processing can be mocked but structure code for easy integration of real YouTube API & AI NLP services later.
+
+Performance & Deployment
+Instant results with skeleton loaders and smooth progressive hydration for fast UX.
+
+Client-side or serverless data fetching via Next.js API routes (mock data initially).
+
+Ready for deployment on Replit or Vercel.
+
+Bonus Features (if time permits)
+Social sharing buttons for summary, mood globe animation, and top comments.
+
+Gamification elements like mood challenges and vibe score comparisons.
+
+User-submitted trending tags with upvote system.
+
+Deliverables
+Complete Next.js codebase with modular, well-documented React components.
+
+Clear separation between UI components, data fetching logic, and AI/mock API layers.
+
+Sample mock data demonstrating all UI features fully functional.
+
+Responsive design with tested breakpoints.
+
+Instructions for future real API integration.
+
+Please start with the landing page, input, and video preview. Then build the vibe scan button and animated emotional pulse dashboard, followed by highlight reel and smart features. Prioritize UX polish and visual impact.
